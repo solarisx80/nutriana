@@ -19,6 +19,9 @@ use strict;
 use warnings;
 use JSON;
 
+use File::Basename;
+use lib dirname (__FILE__);
+use MySQL;
 
 my $dbid = $ARGV[0];
 my $nutdbid = $ARGV[1];

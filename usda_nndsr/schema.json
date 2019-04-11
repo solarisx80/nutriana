@@ -1,6 +1,6 @@
 {
-    "version": 28,
-    "description": "USDA National Nutrient Database for Standard Reference, Release 28",
+    "version": 29,
+    "description": "USDA National Nutrient Database for Standard Reference, Release Legacy aka 29",
     "url": "https://www.ars.usda.gov/Services/docs.htm?docid=8964",
     "data_file_record_separator": "\u000D",
     "field_separator": "^",
@@ -11,7 +11,7 @@
             "table": "FOOD_DES",
             "file": "FOOD_DES.txt",
             "description": "Food Description",
-            "records": 8789,
+            "records": 7793,
             "fields": [
                 {
                     "name": "NDB_No",
@@ -119,7 +119,7 @@
             "table": "NUT_DATA",
             "file": "NUT_DATA.txt",
             "description": "Nutrient Data",
-            "records": 679045,
+            "records": 644125,
             "fields": [
                 {
                     "name": "NDB_No",
@@ -261,7 +261,7 @@
             "table": "WEIGHT",
             "file": "WEIGHT.txt",
             "description": "Weight",
-            "records": 15438,
+            "records": 14449,
             "fields": [
                 {
                     "name": "NDB_No",
@@ -321,7 +321,7 @@
             "table": "FOOTNOTE",
             "file": "FOOTNOTE.txt",
             "description": "Footnote",
-            "records": 552,
+            "records": 537,
             "fields": [
                 {
                     "name": "NDB_No",
@@ -390,7 +390,7 @@
             "table": "LANGUAL",
             "file": "LANGUAL.txt",
             "description": "LanguaL Factor",
-            "records": 38301,
+            "records": 37910,
             "fields": [
                 {
                     "name": "NDB_No",
@@ -416,7 +416,7 @@
             "table": "LANGDESC",
             "file": "LANGDESC.txt",
             "description": "LanguaL Factors Description",
-            "records": 774,
+            "records": 773,
             "fields": [
                 {
                     "name": "Factor_Code",
@@ -439,7 +439,7 @@
             "table": "NUTR_DEF",
             "file": "NUTR_DEF.txt",
             "description": "Nutrient Definition",
-            "records": 150,
+            "records": 149,
             "fields": [
                 {
                     "name": "Nutr_No",
@@ -513,7 +513,7 @@
             "table": "DERIV_CD",
             "file": "DERIV_CD.txt",
             "description": "Data Derivation Code Description",
-            "records": 55,
+            "records": 57,
             "fields": [
                 {
                     "name": "Deriv_Cd",
@@ -536,7 +536,7 @@
             "table": "DATA_SRC",
             "file": "DATA_SRC.txt",
             "description": "Sources of Data",
-            "records": 682,
+            "records": 606,
             "fields": [
                 {
                     "name": "DataSrc_ID",
@@ -608,7 +608,7 @@
             "table": "DATSRCLN",
             "file": "DATSRCLN.txt",
             "description": "Sources of Data Link",
-            "records": 244496,
+            "records": 228457,
             "fields": [
                 {
                     "name": "NDB_No",
